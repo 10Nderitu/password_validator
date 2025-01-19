@@ -16,7 +16,7 @@ const App = () => {
     ) {
       setErrorMessage("This is a strong password");
     } else {
-      setErrorMessage("This is not a strong password");
+      setErrorMessage("This is a weak password");
     }
   };
 
