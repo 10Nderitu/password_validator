@@ -18,7 +18,7 @@ const App = () => {
             <pre>
                 <h2>Checking Password Strength</h2>
                 <span>Enter Password: </span>
-                <input type="text" onChange={(e) => validate(e.target.value)}></input> \
+                <input type="text" onChange={(e) => validate(e.target.value)}></input>
                 <br/>
                 {errorMessage === '' ? null : 
                 <span style={{fontWeight: 'bold', color: 'red'}}>{errorMessage}
