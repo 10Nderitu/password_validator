@@ -5,6 +5,8 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const validate = (value) => {
+
+    //condition
     if (
       validator.isStrongPassword(value, {
         minLength: 8,
